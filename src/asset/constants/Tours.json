@@ -1,0 +1,75 @@
+[
+    {
+      "title": " Nyungwe Park",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 50,
+      "available": 20,
+      "images": ["https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+         "https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+         "https://images.pexels.com/photos/2258536/pexels-photo-2258536.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"],
+      "dateScheduled": "10 August 2010",
+      "dueDate": "15 August 2010",
+      "phone": "+250 788 788 788",
+      "price":300,
+      "user":{
+        "name":"John Smith",
+        "phone":"+250789656465"
+      },
+      "tripDescription": "sjdkdfshjdfsbifdfsbkhdfbisdfdbiaizibidbaaifdbifhdfuhfaufhauhedfshihdkbfkfsikhfsisbfjsrhbfsifkufkhfrkrs"
+    },
+  
+    {
+      "title": " Muhazi Lac",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 50,
+      "available": 20,
+      "images": ["https://images.pexels.com/photos/1212600/pexels-photo-1212600.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "https://images.pexels.com/photos/421759/pexels-photo-421759.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/747964/pexels-photo-747964.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"],
+      "dateScheduled": "10 August 2010",
+      "dueDate": "15 August 2010",
+      "phone": "+250 788 788 788",
+      "price":300,
+      "user":{
+        "name":"John Smith",
+        "phone":"+250789656465"
+      },
+      "tripDescription": "sjdkdfshjdfsbifdfsbkhdfbisdfdbiaizibidbaaifdbifhdfuhfaufhauhedfshihdkbfkfsikhfsisbfjsrhbfsifkufkhfrkrs"
+    },
+    {
+      "title": " Gako Forest",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 80,
+      "available": 30,
+      "images": ["https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "https://images.pexels.com/photos/142497/pexels-photo-142497.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+         "https://images.pexels.com/photos/131723/pexels-photo-131723.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"],
+      "dateScheduled": "10 August 2010",
+      "dueDate": "15 August 2010",
+      "phone": "+250 788 788 788",
+      "price":300,
+      "user":{
+        "name":"John Smith",
+        "phone":"+250789656465"
+      },
+      "tripDescription": "sjdkdfshjdfsbifdfsbkhdfbisdfdbiaizibidbaaifdbifhdfuhfaufhauhedfshihdkbfkfsikhfsisbfjsrhbfsifkufkhfrkrs"
+    },
+    {
+      "title": " Akagera National Park",
+      "description": "Anim ea aliqua cillum consectetur eiusmod ipsum id eiusmod. Lorem tempor fugiat elit incididunt aliquip minim dolor aute dolore. Dolore dolore pariatur minim id enim in excepteur sit dolor.",
+      "seats": 40,
+      "available": 20,
+      "images": ["https://images.pexels.com/photos/4003655/pexels-photo-4003655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+         "https://images.pexels.com/photos/1112186/pexels-photo-1112186.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+         "https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"],
+      "dateScheduled": "10 August 2010",
+      "dueDate": "15 August 2010",
+      "phone": "+250 788 788 788",
+      "price":300,
+      "user":{
+        "name":"John Smith",
+        "phone":"+250789656465"
+      },
+      "tripDescription": "sjdkdfshjdfsbifdfsbkhdfbisdfdbiaizibidbaaifdbifhdfuhfaufhauhedfshihdkbfkfsikhfsisbfjsrhbfsifkufkhfrkrs"
+    }
+  ]
