@@ -34,7 +34,7 @@ const Header = () => {
                 </Form>
             </Modal>
             <div class="header-container">
-                <div class="logo">
+                <div class="logospace">
                     <img src={logo} width="150px" /> </div>
                 <div class="headers">
                     <ul>

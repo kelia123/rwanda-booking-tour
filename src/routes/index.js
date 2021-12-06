@@ -1,5 +1,5 @@
 import React from "react"
-import {Routes,Route} from "react-router-dom";
+import {Routes,Route,useLocation} from "react-router-dom";
 import Home from "../views/home";
 import Aboutus from "../views/Aboutus";
 import Signup from "../views/Signup";
@@ -11,7 +11,12 @@ import SingleTour from "../components/singleTour";
 import NewTour from "../views/Dashboard/NewTour";
 import DashLayout from "../components/dashboardLayout";
 import AllTours from "../views/Dashboard/AllTours";
-const index=()=>{ return(
+
+const isUserLogedIn=localStorage.getItem("userLogedIn");
+
+const Index=()=>{
+    const currentUrl = useLocation().pathname;
+    return(
     <>
     <Routes>
         <Route exact path="/" element={<Home/>}/>
@@ -24,15 +29,19 @@ const index=()=>{ return(
         <Route exact path="/singleTour" element={<SingleTour/>}/>
         {/* <Route exact path="/dash/alltour" element={<AllTours/>}/> */}
         {/* <Route exact path="/dash/NewTour" element={<NewTour/>}/> */}
-
         </Routes>
+        {isUserLogedIn && currentUrl.includes("/dash") ? (
         <DashLayout>
             <Routes>
             <Route path="/dash/newtour" element={<NewTour/>}></Route>
             <Route path="/dash/alltour" element={<AllTours/>}></Route>
             </Routes>
-        </DashLayout>
-        </>
+        </DashLayout>):(
+        <></>
+    )
+    }
+</>
+
 )
 }
-export default index;
+export default Index;

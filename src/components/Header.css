@@ -12,16 +12,16 @@
     /* position: fixed; */
     /* box-shadow: 1px 1px 1px 1px rgba(84, 81, 81, 0.2) ; */
 }
-.logo{
-    width: 16%;
-    margin-left: 3%;
+.logospace{
+    width: 15%;
+    margin-left: 2%;
     /* background-color: yellowgreen; */
     /* background-color: lawngreen; */
 
     /* padding-top: 1.5%;
     padding-left: 4%; */
 }
-.logo img{
+.logospace img{
     width: 100%;
     margin-left: 10%;
     margin-top: -35%;
